@@ -1,1 +1,68 @@
-// TODO
+.container{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding:  2rem 5rem;
+
+  img{
+    margin: 2rem 0;
+  }
+  
+  button{
+    background: none;
+    border: none;
+    color: var(--linksAndButtons);
+  }
+}
+
+
+.post{
+  max-width: 720px;
+
+
+
+  a{
+
+    display: block;
+
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      margin-bottom: 1rem;
+    }
+
+    & + a {
+        margin-top: 2rem;
+        padding-top: 1rem;
+    }
+
+    & + a:last-child{
+        margin-bottom: 4rem;
+    }
+    
+
+ 
+
+    span{
+      color: var(--infos);
+      
+      svg {
+        margin-right: 0.5rem;
+      }
+
+      & + span{
+    
+        margin-left: 2rem;
+        
+      }
+  
+    }
+
+  
+  }
+  
+
+
+}
+
